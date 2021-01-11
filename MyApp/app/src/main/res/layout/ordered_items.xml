@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="100dp"
+    android:layout_width="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/item_image_cart"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_launcher_background"/>
+
+        <RelativeLayout
+            android:id="@+id/relative_text"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_name_cart"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:text="Itemname"
+                android:textAllCaps="false"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/total_mrp"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/item_name_cart"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:maxLines="1"
+                android:text="Rs."
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/items"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            android:text="Items"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/items_count"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="5dp"
+            android:text="1"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/items"
+            android:textStyle="bold"/>
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

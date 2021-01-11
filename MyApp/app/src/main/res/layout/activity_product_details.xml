@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetailsActivity">
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerview_products"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_above="@id/relative_items"
+       android:layout_margin="10dp">
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+   <RelativeLayout
+       android:id="@+id/relative_items"
+       android:layout_width="match_parent"
+       android:layout_height="35dp"
+       android:layout_alignParentBottom="true"
+       android:layout_margin="10dp">
+
+      <Button
+          android:id="@+id/check_out_btn"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_marginRight="40dp"
+          android:layout_marginLeft="40dp"
+          android:background="@color/colorBlack"
+          android:text="Check Out"
+          android:textColor="@android:color/white"
+          android:textAllCaps="false"
+          android:textSize="20sp"/>
+
+   </RelativeLayout>
+
+</RelativeLayout>
