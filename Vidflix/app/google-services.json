@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "231966839175",
+    "firebase_url": "https://vidflix-fce89-default-rtdb.firebaseio.com",
+    "project_id": "vidflix-fce89",
+    "storage_bucket": "vidflix-fce89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231966839175:android:511332acf47931e4b74322",
+        "android_client_info": {
+          "package_name": "com.app.vidflix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "231966839175-10s0jr5dvr3h76ccq8p7guhi7j0rfnb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.vidflix",
+            "certificate_hash": "ad654353cccebe40f1efc6b392eb0c74444381d0"
+          }
+        },
+        {
+          "client_id": "231966839175-2l0v821u713e3nvjampf67fi0gsh64d9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4YqYkue4PLf5f-vO_JSDKZLTzqVohSTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "231966839175-2l0v821u713e3nvjampf67fi0gsh64d9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
