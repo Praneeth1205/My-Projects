@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redbackground"
+    tools:context=".ResultActivity">
+
+    <ImageView
+        android:id="@+id/back_btn_result"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="7dp"
+        android:src="@drawable/logout_arrow" />
+
+
+
+    <ImageView
+        android:id="@+id/image_quiz"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/back_btn_result"
+        android:src="@drawable/ipl"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/name_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_quiz"
+        android:layout_below="@id/back_btn_result"
+        android:text="Name"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_quiz"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="17dp"
+        android:background="@drawable/back_border"
+        >
+
+        <TextView
+            android:id="@+id/your_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Score:"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="22sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/performance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View your performance"
+            android:background="@drawable/white_underline"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_quiz"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/linear"
+        android:background="@drawable/back_border"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="17dp"
+        android:layout_alignParentRight="true">
+
+        <TextView
+            android:id="@+id/current_rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="Current Rank:"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal"
+            android:text="0"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/view_rank_breakup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_underline"
+            android:gravity="center"
+            android:text="View Rank BreakUp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/linear"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Winners for this quiz will be announced at 00:00"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:background="@drawable/white_underline"
+            android:paddingBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/play_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:text="Play more quizzies:"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Category Quiz Name"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageurl"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/name"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="4dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ipl" />
+
+            <RelativeLayout
+                android:id="@+id/relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/imageurl"
+                android:background="#DFD7D7">
+
+                <ImageView
+                    android:id="@+id/trophy"
+                    android:layout_width="35sp"
+                    android:layout_height="35sp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/trophy" />
+
+                <TextView
+                    android:id="@+id/play_win"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/trophy"
+                    android:text="Play &amp; Win:"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/coins_live_quiz"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_toRightOf="@id/play_win"
+                    android:src="@drawable/coins" />
+
+                <TextView
+                    android:id="@+id/winning_coins"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/coins_live_quiz"
+                    android:text="7000"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/online"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@id/imageurl"
+                android:src="@drawable/online" />
+
+
+            <TextView
+                android:id="@+id/noOf_users"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageurl"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/online"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="100 users playing"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp">
+
+
+                <TextView
+                    android:id="@+id/entry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_quiz"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Entry:"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/entry_fee_coins"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_below="@id/image_quiz"
+                    android:src="@drawable/coins" />
+
+                <TextView
+                    android:id="@+id/entry_fee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_quiz"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="100"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/play_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@id/relative"
+                android:layout_alignParentEnd="true"
+                android:text="Play Now"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:background="@drawable/input_back"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/white">
+
+            <TextView
+                android:id="@+id/name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:text="Category Quiz Name"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageurl2"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/name2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="4dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ipl" />
+
+            <RelativeLayout
+                android:id="@+id/relative2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="10dp"
+                android:layout_toRightOf="@id/imageurl2"
+                android:background="#DFD7D7">
+
+                <ImageView
+                    android:id="@+id/trophy2"
+                    android:layout_width="35sp"
+                    android:layout_height="35sp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/trophy" />
+
+                <TextView
+                    android:id="@+id/play_win2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_toRightOf="@id/trophy2"
+                    android:text="Play &amp; Win:"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/coins_live_quiz2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_toRightOf="@id/play_win2"
+                    android:src="@drawable/coins" />
+
+                <TextView
+                    android:id="@+id/winning_coins2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_toRightOf="@id/coins_live_quiz2"
+                    android:text="7000"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:maxLines="1"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/online2"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="4dp"
+                android:layout_below="@id/imageurl2"
+                android:src="@drawable/online" />
+
+
+            <TextView
+                android:id="@+id/noOf_users2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageurl2"
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@id/online2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="100 users playing"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/relative2"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:orientation="horizontal"
+                android:layout_marginTop="13dp">
+
+
+                <TextView
+                    android:id="@+id/entry2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_quiz"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Entry:"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+                <ImageView
+                    android:id="@+id/entry_fee_coins2"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:layout_below="@id/image_quiz"
+                    android:src="@drawable/coins" />
+
+                <TextView
+                    android:id="@+id/entry_fee2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/image_quiz"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Free"
+                    android:textAllCaps="false"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:textStyle="normal" />
+
+
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/play_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_below="@id/relative2"
+                android:layout_alignParentEnd="true"
+                android:text="Play Now"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:textSize="12dp"
+                android:textColor="@color/white"
+                android:background="@drawable/input_back"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

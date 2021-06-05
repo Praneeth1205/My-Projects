@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/redbackground"
+    android:orientation="vertical"
+    tools:context=".PredictQuestionsActivity">
+
+    <ImageView
+        android:id="@+id/back_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/logout_arrow" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/back_border"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/oneParticipant"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ipl"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/oneName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_below="@id/oneParticipant"
+            android:layout_marginLeft="30dp"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/twoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_below="@id/oneParticipant"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="30dp"
+            android:textStyle="normal"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_alignParentRight="true" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/twoParticipant"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ipl"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30dp"/>
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/countdown"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="45dp"
+        >
+
+        <TextView
+            android:id="@+id/question_predict"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:text="Question"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:background="@drawable/back_border"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="option A"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/background_white_round"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="option B"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/background_white_round"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="option C"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/background_white_round"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="option D"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/background_white_round"
+            android:textColor="@color/black"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:gravity="center_vertical"
+            tools:ignore="RtlCompat" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

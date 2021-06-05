@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Application</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="securitymeasures">Our App is 100% safe &amp; secure.Keeping the users data safe at all time is our utmost priority.Our
+        team NEVER asks you for your bank details, credit card details, OTPs or UPI details.
+        Do not share such information with anyone who claims to be from App or from our Media Pvt. Ltd.
+        Any such call or communication seeking this information is fraudulent, we request you to report such instances with us
+        on support@app.com</string>
+
+    <string name="facebook_app_id">184197566887032</string>
+    <string name="fb_login_protocol_scheme">fb184197566887032</string>
+    <string name="coin_games">Coin Games</string>
+    <string name="english">English</string>
+    <string name="change_language">Change Language</string>
+    <string name="hindi">हिंदी</string>
+    <string name="change">Change</string>
+    <string name="manage_alarm">Manage Alarm</string>
+    <string name="show_timings">Show Timings</string>
+    <string name="free_coins">Free Coins</string>
+    <string name="share_app">Share App</string>
+    <string name="security_measures">Security Measures</string>
+    <string name="languages">Languages</string>
+    <string name="feedback">Feedback</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="youtube">Youtube</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="winners">Winners</string>
+    <string name="view">VIEW</string>
+
+    <string name="prediction_rules">1. Each match will have a set of questions that you \nneed to answer (predict) before the actual game starts.\n\n
+2. Once you have submitted an answer (prediction) \nyou cannot change it later.\n\n
+3. You get 2 points for every right answer (prediction), -1 for every wrong answer (prediction). You also get 3 extra points in case you\n answer (predict) 3 questions right in a row &amp; 5 extra points (loyalty bonus) for answer (predicting) all questions for a match.\n\n
+4. The winners for a match are decided depending upon their scores &amp; time taken to answer (predict) all questions.\n\n
+5. Prizes will be given basis the prize metrics for the game.\n\n
+6. Some Predication matches may have entry by \ndoing an activity like watch a video.\n\n</string>
+
+    <string name="quiz_rules">1. You get 90 seconds to answer as many questions\n as you can (max questions you can answer is 25).\n\n
+2. There are 3 options for each question, one of them\n is the answer for the question.\n\n
+3. You get 20 points for each right answer.\n\n
+4. You get (-)10 points for each wrong answer.\n\n
+5. You get 10 points as hattrick bonus if you answer 3\n questions correctly in a row.\n\n
+6. The winners for the quiz is decided depending\n upon the scores of all the users that participated in\n the quiz.\n\n
+7. Winners for each quiz will be declared at a pre-defined time.\n\n</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="refer_earn">Refer/Earn</string>
+    <string name="recent_winners">Recent Winners</string>
+
+    <string name="refer_head">Let\'s see who get more answers correct in quizzes</string>
+    <string name="refer_rules">1. Invite all your friends\n
+        2. Ask them to install app &amp; sign up with mobile number\n
+        3. Make sure you &amp; your friends play same Quiz contests\n
+        4. Score high &amp; see who ends up with better rank at \nthe time of winners announcement</string>
+
+    <string name="invite_head">Invite your friends on app &amp; help them also to test their knowledge in various categories of quizzes</string>
+
+    <string name="inviteTxt1"> Refer app to your friends &amp; ask them to register on app.\n</string>
+    <string name="inviteTxt2">Score high in quizzes &amp; compete with your friends.\n</string>
+
+</resources>

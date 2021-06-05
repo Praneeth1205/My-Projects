@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".VerificationActivity">
+
+    <EditText
+        android:id="@+id/code_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/input"
+        android:hint="Enter Code"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="#716F6F"
+        android:textSize="20sp"
+        android:textAlignment="gravity"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify Code"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/black"
+        />
+
+
+
+</LinearLayout>
