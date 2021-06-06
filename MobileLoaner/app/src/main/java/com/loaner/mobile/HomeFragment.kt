@@ -23,7 +23,11 @@ class HomeFragment : Fragment() {
         prefs = Prefs(requireContext())
 
         view.apply_now?.setOnClickListener {
-            if (prefs.allDetailsFilled!=null && prefs.allDetailsFilled!!){
+            if (prefs.isLoggined!=null && !prefs.isLoggined!!){
+                val intent = Intent(context,LoginActivity::class.java)
+                startActivity(intent)
+            }
+            else if (prefs.allDetailsFilled!=null && prefs.allDetailsFilled!!){
                 val intent = Intent(context,LoanDetailsActivity::class.java)
                 startActivity(intent)
             }else{

@@ -9,9 +9,11 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.loaner.mobile.store.Prefs
 
 class MainActivity : AppCompatActivity() {
 
+    lateinit var prefs : Prefs
     private val onNavigationItemSelectedListener =
         BottomNavigationView.OnNavigationItemSelectedListener { item ->
             when (item.itemId) {
@@ -20,11 +22,21 @@ class MainActivity : AppCompatActivity() {
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.nav_profile -> {
-                    moveToFragment(ProfileFragment())
+                    if (prefs.isLoggined!=null && !prefs.isLoggined!!){
+                        val intent = Intent(this,LoginActivity::class.java)
+                        startActivity(intent)
+                    }else {
+                        moveToFragment(ProfileFragment())
+                    }
                     return@OnNavigationItemSelectedListener true
                 }
                 R.id.nav_more -> {
-                    moveToFragment(MoreFragment())
+                    if (prefs.isLoggined!=null && !prefs.isLoggined!!){
+                        val intent = Intent(this,LoginActivity::class.java)
+                        startActivity(intent)
+                    }else {
+                        moveToFragment(MoreFragment())
+                    }
                     return@OnNavigationItemSelectedListener true
                 }
 
@@ -42,6 +54,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        prefs = Prefs(this)
         val navView: BottomNavigationView = findViewById(R.id.nav_view)
 
         navView.setOnNavigationItemSelectedListener(onNavigationItemSelectedListener)
