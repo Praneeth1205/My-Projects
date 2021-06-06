@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">Mobile Loaner</string>
+    <string name="title_home">Home</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_more">More</string>
+
+    <string name="terms">
+
+       <b>Terms &amp; Conditions</b> \n\n\n
+
+By downloading or using the app, these terms will automatically apply
+to you - you should make sure therefore that you read them carefully
+before using the app. You are not allowed to copy, or modify the app,
+any part of the app, or our trademarks in any way. You are not allowed to
+attempt to extract the source code of the app, and you also should not try
+to translate the app into other languages, or make derivative versions.
+The app itself, and all the trade marks, copyright, database rights and
+other intellectual property rights related to it, still belong to Fast Loan.\n\n\n\n
+
+Fast Loan is committed to ensuring that the app is as useful and efficient
+as possible. For that reason, we reserve the right to make changes to the app
+or to charge for its services, at any time and for any reason. We will never
+charge you for the app or its services without making it very clear to you exactly what you are paying for.\n\n
+
+The Fast Loan app stores and processes personal data that you have provided to us,
+in order to provide my Service. It is your responsibility to keep your phone and
+recommend access to the app secure. We therefore that you do not jailbreak or root
+your phone, which is the process of removing software restrictions and limitations
+imposed by the official operating system of your device. It could make your phone
+vulnerable to malware/viruses/malicious programs, compromise your phones security
+features and it could mean that the Fast Loan app wont work properly or at all.\n\n
+
+The app does use third party services that declare their own Terms and Conditions.\n\n
+
+Link to Terms and Conditions of third party service providers used by the app.\n\n
+
+         <b>Google Play Services</b>\n\n
+
+You should be aware that there are certain things that Fast Loan will not take responsibility
+for. Certain functions of the app will require the app to have an active internet connection.
+The connection can be Wi-Fi, or provided by your mobile network provider, but Fast Loan cannot
+take responsibility for the app not working at full functionality if you do not have access to
+Wi-Fi, and you do not have any of your data allowance left.\n\n
+
+If you are using the app outside of an area with Wi-Fi, you should remember that your terms of
+the agreement with your mobile network provider will still apply. As a result, you may be charged
+by your mobile provider for the cost of data for the duration of the connection while accessing
+the app, or other third party charges. In using the app, you are accepting responsibility for any
+such charges, including roaming data charges if you use the app outside of your home territory
+(i.e. region or country) without turning off data roaming. If you are not the bill payer for the
+device on which you are using the app, please be aware that we assume that you have received permission
+from the bill payer for using the app.\n\n
+
+Along the same lines, Fast Loan cannot always take responsibility for the way you use the app i.e.
+You need to make sure that your device stays charged - if it runs out of battery and you cannot turn
+it on to avail the Service, Fast Loan cannot accept responsibility.\n\n
+
+With respect to Fast Loans responsibility for your use of the app, when you are using the app,
+it is important to bear in mind that although we endeavour to ensure that it is updated and correct
+at all times, we do rely on third parties to provide information to us so that we can make it available
+to you. Fast Loan accepts no liability for any loss, direct or indirect, you experience as a result of
+relying wholly on this functionality of the app.\n\n
+
+
+At some point, we may wish to update the app. The app is currently
+available on Android - the requirements for system(and for any additional
+systems we decide to extend the availability of the app to) may change, and
+you will need to download the updates if you want to keep using the app. Fast
+Loan does not promise that it will always update the app so that it is relevant
+to you and/or works with the Android version that you have installed on your device.
+However, you promise to always accept updates to the application when offered to you,
+We may also wish to stop providing the app, and may terminate use of it at any time
+without giving notice of termination to you. Unless we tell you otherwise, upon any termination,\n\n
+
+(a) the rights and licenses granted to you in these terms will end\n\n
+
+(b) you must stop using the app, and (if needed) delete it from your device.\n\n
+
+        <b>Changes to This Terms and Conditions</b>\n\n
+
+I may update our Terms and Conditions from time to time. Thus, you are advised to
+review this page periodically for any changes. I will notify you of any changes by
+posting the new Terms and Conditions on this page.\n\n
+
+These terms and conditions are effective as of 2020-07-07\n\n
+
+        <b>Contact Us</b>\n\n
+
+If you have any questions or suggestions about my Terms and Conditions, do not hesitate to
+contact me at mobileloanerindia@gmail.com.\n\n\n\n
+
+    </string>
+
+    <string name="privacy">
+
+  <b>Privacy policy</b>\n\n\n
+
+Fast Loan built the Fast Loan app as a Free app. This SERVICE is provided by
+Fast Loan at no cost and is intended for use as is.\n\n
+
+This page is used to inform visitors regarding my policies with the collection,
+ use, and disclosure of Personal Information if anyone decided to use my Service.\n\n
+
+If you choose to use my Service, then you agree to the collection and use of information
+ in relation to this policy. The Personal Information that collect is used for providing
+ and improving the Service. I will not use or share your information with anyone except as
+ described in this Privacy Policy.\n\n
+
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
+which is accessible at Fast Loan unless otherwise defined in this Privacy Policy.\n\n
+
+Information Collection and Use\n\n
+
+For a better experience, while using our Service, I may require you to provide us
+ with certain personally identifiable information, including but not limited to We
+ are integrated UPI Payment and If user have face any transaction issue he/she need to
+ contact directly admin.If user have complete the process then he/she need to send mail
+  to admin for reference. We are taking camera permission for getting image from camera
+  and we are not store any data of user externally Fast Loan is merely facilitates a transaction
+  between two such persons (i.e. Users). Fast Loan is not an organization registered with the
+  Reserve Bank of India and does not hold any license to engage in any activities relating to
+  lending or borrowing. Fast Loan is not a Financial institution under the Companies Act, 2013
+  or the Banking Regulation Act, 1949 or any other laws for the time being in force in India.
+   Fast Loan is also not a deposit taking company or a chit fund or a company offering any investment
+   schemes as per the rules and regulations for the time being in force in India.\n\n
+
+Fast Loan is a service provider facilitating the access between financial institutes and non-banking
+finance companies willing to lend and person in need of borrowing. The final decision as regards lending
+and borrowing is also subject to the choice of the respective Users in their respective capacities as
+lenders / borrowers /users of other financial products as set out in the Platform. Fast Loan, through its
+Platform displays various products provided by its partners or third parties. In addition to the foregoing,
+Fast Loan also provides certain other services with respect to data analytics subject to these Terms &amp; Conditions.
+ The information that request will be retained on your device and is not collected by me in any way.\n\n
+
+The app does use third party services that may collect information used to identify you.\n\n
+
+Link to privacy policy of third party service providers used by the app\n\n
+
+Google Play Services\n\n
+
+Google Analytics for Firebase\n\n
+
+Firebase Crashlytics\n\n
+
+Log Data\n\n
+
+I want to inform you that whenever you use my Service, in a case of an error in the app I collect data
+and information (through third party products) on your phone called Log Data. This Log Data may include
+information such as your device Internet Protocol (IP) address, device name, operating system version,
+the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.\n\n
+
+<b>Cookies</b>\n\n
+
+Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers.
+These are sent to your browser from the websites that you visit and are stored on your devices internal memory.\n\n
+
+This Service does not use these <b>cookies</b> explicitly. However, the app may use third party code and
+libraries that use "cookies" to collect information and improve their services. You have the option to
+ either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose
+ to refuse our cookies, you may not be able to use some portions of this Service.\n\n
+
+<b>Service Providers</b>\n\n
+
+I may employ third-party companies and individuals due to the following reasons:\n\n
+
+To facilitate our Service\n\n
+
+To provide the Service on our behalf\n\n
+
+To perform Service-related services or\n\n
+
+To assist us in analyzing how our Service is used.\n\n
+
+I want to inform users of this Service that these third parties have access to your Personal Information.
+The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose
+or use the information for any other purpose.\n\n
+
+        <b>Security</b>>\n\n
+
+I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable
+means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage
+is 100% secure and reliable, and I cannot guarantee its absolute security.\n\n
+
+Links to Other Sites\n\n
+
+This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site.
+ Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy
+ of these websites. have no control over and assume no responsibility for the content, privacy policies, or practices
+ of any third-party sites or services.\n\n
+
+ Children Privacy\n\n
+
+ These Services do not address anyone under the age of 18. I do not knowingly collect personally identifiable information
+  from children under 18. In the case I discover that a child under 18 has provided me with personal information,
+  I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has
+  provided us with personal information, please contact me so that I will be able to do necessary actions.\n\n
+
+ Changes to This Privacy Policy\n\n
+
+ I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes.
+  will notify you of any changes by posting the new Privacy Policy on this page.\n\n
+
+ This policy is effective as of 2020-07-07\n\n
+
+ <b>Contact Us</b>\n\n
+
+ If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at 
+        mobileloanerindia@gmail.com.\n\n\n\n\n
+    </string>
+
+    <string name="about_us">
+        <b>About this app</b>\n\n\n
+
+Instant personal loan upto 2 lakh for 65 days to 24 month at 0-2.49 per month\n\n
+
+Loans range from 1000 to 200000\n\n
+
+Tenure 65 days to 24 months, interest rates range from 0%-29.95% depending on risk profile of customer and product availed\n\n
+
+Example :if loan amount is 50000 and interest is 22% per annum with tenure of 12 moth and 24 month
+ per annum with tenure of 65 days after deducting any other fees\n\n
+
+Fast Loan is an interest personal loan app &amp; credit platform for young professional across India,
+ where one can apply for personal loan online &amp; avail up to 2 Lakhs as direct cash Transfer to bank account\n\n
+
+<b>Loan Types</b>\n\n
+
+Flexi Personal Loan- A flexible loan option where you can avail loans within 10 minutes of app in…
+Online purchase loan -A loan option where you can Buy anything Now,pay later in EMIS.\n\n
+
+<b>Features</b>\n\n
+
+1.100% online process\n\n
+
+2. Minimal documentation\n\n
+
+3. Fast approval\n\n
+
+4. Immediate bank transfer\n\n
+
+        <b>Benefits &amp; Risks</b>\n\n
+
+1. Get access to higher amounts &amp; tenures as you repay on time\n\n
+
+2. As compliance requirement you payment behaviour is shared with credit rating agencies based on that your 
+credit score may increase / decrease\n\n
+
+<b>Eligibility</b>\n\n
+
+1. Indian resident\n\n
+
+2. Above the age of 21 years\n\n
+
+3. Should have monthly source of income\n\n
+
+<b>How to get started</b>\n\n
+
+1. Install Fast Loan App\n\n
+
+2. Register through your mobile number\n\n
+
+3. Fill your basic details to check forest level eligibility 4. Upload KYC documents -ID,Address Proof &amp; PAN card\n\n
+
+5. Avail loan as bank transfer\n\n
+
+<b>Amount, Tenure, Fees &amp; Charges</b>\n\n
+
+Loans amount :1000 to 200000, Tenure: 65 days to 24 months. Instant loan charges one-time service fee while 
+onboarding or during upgrade membership band availed by customer. Interest rates range from 0%-2.49% only. 
+A small processing fee is charged for loans e.g for low risk customers 2.5%-6.5% *. The charges and repayment 
+tenures vary based on creditworthiness and repayment ability of customer.\n\n
+
+Penalty is charged only when someone delays their scheduled payment.\n\n
+
+The APR for different product is separate as per the risk profile of the customer. The APR for different
+ personal loan products: low risk customers is 0% -36%, medium risk customers is 18 % -39% high risk customer 
+ is 24% -42%* and very high risk customer is 24%-70%*\n\n
+
+In addition to it,GST will be applicable only on the fee components as per Indian laws.\n\n
+
+*The higher charges are only for loans of lower amount and lower repayment tenure\n\n
+
+Example\n\n
+
+A new low risk customer availing personal loan for salaried can avail a loan of 50,000 at an interest rate of 22% 
+processing free of 1,250 for a period of 12 months and onboarding fees of 282. This would translate to APR 25.2%
+
+<b>Interest calculation</b>\n\n
+
+If loan amount is 50,000 &amp; interest 22% per ann and loan is to be repaid over 12 EMIs, then overall interest payable 
+is 6,157 only. The EMI per month would be 4,680\n\n
+
+<b>Contact us</b>\n\n
+
+If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at 
+        mobileloanerindia@gmail.com.\n\n\n\n\n
+    </string>
+
+    <string name="loan_rule">If you want to avail loan you need to pay security deposit in order to verify your solvency,
+        prepare loan agreement and other services.
+        This amount will be adjusted on your repayment</string>
+
+
+</resources>
